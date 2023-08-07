@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="APK.menu"
+             Title="menu">
+    
+    <ContentPage.Content>
+        <ScrollView>
+        <StackLayout Padding="20">
+            <Frame BackgroundColor="#311b45" CornerRadius="90">
+                <StackLayout Spacing="10" Padding="20">
+                    <Image Source="licuado.jpg" HeightRequest="300" Aspect="AspectFill" />
+
+                    <Label Text="Frappe de fresa y chocolate" FontSize="20" FontAttributes="Bold" />
+                    <Label Text="rquisimo batido de leche y de nuestras especialidades de chocolate y fresa" FontSize="16" TextColor="#555555" />
+
+                    <Label Text="Precio: $3.50" FontSize="18" TextColor="#3498db" />
+
+                    <Button Text="Agregar al Carrito" BackgroundColor="#3498db" TextColor="White" CornerRadius="10" Padding="15" HorizontalOptions="FillAndExpand" />
+                </StackLayout>
+            </Frame>
+
+
+                <Frame BackgroundColor="#311b45" CornerRadius="90">
+                    <StackLayout Spacing="10" Padding="20">
+                        <Image Source="arandanos.jpg" HeightRequest="300" Aspect="AspectFill" />
+
+                        <Label Text="Frappe de arandanos" FontSize="20" FontAttributes="Bold" />
+                        <Label Text="Combinacion de sabores frescos de arandabos y frutos del bosque" FontSize="16" TextColor="#555555" />
+
+                        <Label Text="Precio: $4.99" FontSize="18" TextColor="#3498db" />
+
+                        <Button Text="Agregar al Carrito" BackgroundColor="#3498db" TextColor="White" CornerRadius="10" Padding="15" HorizontalOptions="FillAndExpand" />
+                    </StackLayout>
+                </Frame>
+
+                <Frame BackgroundColor="#311b45" CornerRadius="90">
+                    <StackLayout Spacing="10" Padding="20">
+                        <Image Source="gallo.jpg" HeightRequest="300" Aspect="AspectFill" />
+
+                        <Label Text="Cerveza Guimes" FontSize="20" FontAttributes="Bold" />
+                        <Label Text="cerveza irlandesa " FontSize="16" TextColor="#555555" />
+
+                        <Label Text="Precio: $9.99" FontSize="18" TextColor="#3498db" />
+
+                        <Button Text="Agregar al Carrito" BackgroundColor="#3498db" TextColor="White" CornerRadius="10" Padding="15" HorizontalOptions="FillAndExpand" />
+                    </StackLayout>
+                </Frame>
+
+                <Frame BackgroundColor="#311b45" CornerRadius="90">
+                    <StackLayout Spacing="10" Padding="20">
+                        <Image Source="hawai.jpg" HeightRequest="300" Aspect="AspectFill" />
+
+                        <Label Text="Bebidas de verano" FontSize="20" FontAttributes="Bold" />
+                        <Label Text="nuestras bebidasde verano preparads por nuestros mejores bartender" FontSize="16" TextColor="#555555" />
+
+                        <Label Text="Precio: $5.99" FontSize="18" TextColor="#3498db" />
+
+                        <Button Text="Agregar al Carrito" BackgroundColor="#3498db" TextColor="White" CornerRadius="10" Padding="15" HorizontalOptions="FillAndExpand" />
+                    </StackLayout>
+                </Frame>
+
+                <Frame BackgroundColor="#311b45" CornerRadius="90">
+                    <StackLayout Spacing="10" Padding="20">
+                        <Image Source="fresa.jpg" HeightRequest="300" Aspect="AspectFill" />
+
+                        <Label Text="Nectar de Fresa" FontSize="20" FontAttributes="Bold" />
+                        <Label Text="Jugo natural de la pulpa natural de las mejores fresas" FontSize="16" TextColor="#555555" />
+
+                        <Label Text="Precio: $3.99" FontSize="18" TextColor="#3498db" />
+
+                        <Button Text="Agregar al Carrito" BackgroundColor="#3498db" TextColor="White" CornerRadius="10" Padding="15" HorizontalOptions="FillAndExpand" />
+                    </StackLayout>
+                </Frame>
+
+                <Frame BackgroundColor="#311b45" CornerRadius="90">
+                    <StackLayout Spacing="10" Padding="20">
+                        <Image Source="Expreso.jpg" HeightRequest="300" Aspect="AspectFill" />
+
+                        <Label Text="Cafe Colombiano y salvadoreño" FontSize="20" FontAttributes="Bold" />
+                        <Label Text="Cafe de buena calidad con semillas recien sacadas" FontSize="16" TextColor="#555555" />
+
+                        <Label Text="Precio: $9.99" FontSize="18" TextColor="#3498db" />
+
+                        <Button Text="Agregar al Carrito" BackgroundColor="#3498db" TextColor="White" CornerRadius="10" Padding="15" HorizontalOptions="FillAndExpand" />
+                    </StackLayout>
+                </Frame>
+
+                <Frame BackgroundColor="#311b45" CornerRadius="90">
+                    <StackLayout Spacing="10" Padding="20">
+                        <Image Source="mocachino.jpg" HeightRequest="300" Aspect="AspectFill" />
+
+                        <Label Text="capuccino de eleccion" FontSize="20" FontAttributes="Bold" />
+                        <Label Text="capuccino con la figura que tu desees y con os mejores productos" FontSize="16" TextColor="#555555" />
+
+                        <Label Text="Precio: $6.75" FontSize="18" TextColor="#3498db" />
+
+                        <Button Text="Agregar al Carrito" BackgroundColor="#3498db" TextColor="White" CornerRadius="10" Padding="15" HorizontalOptions="FillAndExpand" />
+                    </StackLayout>
+                </Frame>
+
+                <Frame BackgroundColor="#311b45" CornerRadius="90">
+                    <StackLayout Spacing="10" Padding="20">
+                        <Image Source="guaro.jpg" HeightRequest="300" Aspect="AspectFill" />
+
+                        <Label Text="Licor de Primera Calidad" FontSize="20" FontAttributes="Bold" />
+                        <Label Text="Si de Alegrar el ambiente se trata nosotros somos los mejores." FontSize="16" TextColor="#555555" />
+
+                        <Label Text="Precio: $10.99" FontSize="18" TextColor="#3498db" />
+
+                        <Button Text="Agregar al Carrito" BackgroundColor="#3498db" TextColor="White" CornerRadius="10" Padding="15" HorizontalOptions="FillAndExpand" />
+                    </StackLayout>
+                </Frame>
+
+                <Frame BackgroundColor="#311b45" CornerRadius="90">
+                    <StackLayout Spacing="10" Padding="20">
+                        <Image Source="pajilla.jpg" HeightRequest="300" Aspect="AspectFill" />
+
+                        <Label Text="Tus bebidas del starbucks favoritas" FontSize="20" FontAttributes="Bold" />
+                        <Label Text="Te ofrecemos el catalogo de bebidas de la casa" FontSize="16" TextColor="#555555" />
+
+                        <Label Text="Precio: $8.99" FontSize="18" TextColor="#3498db" />
+
+                        <Button Text="Agregar al Carrito" BackgroundColor="#3498db" TextColor="White" CornerRadius="10" Padding="15" HorizontalOptions="FillAndExpand" />
+                    </StackLayout>
+                </Frame>
+
+                <Frame BackgroundColor="#311b45" CornerRadius="90">
+                    <StackLayout Spacing="10" Padding="20">
+                        <Image Source="gaseosa.jpg" HeightRequest="300" Aspect="AspectFill" />
+
+                        <Label Text="Coca Colas que explotan tu mente" FontSize="20" FontAttributes="Bold" />
+                        <Label Text="La gaseosas mas heladas y recien traida de la fabrica" FontSize="16" TextColor="#555555" />
+
+                        <Label Text="Precio: $1.99" FontSize="18" TextColor="#3498db" />
+
+                        <Button Text="Agregar al Carrito" BackgroundColor="#3498db" TextColor="White" CornerRadius="10" Padding="15" HorizontalOptions="FillAndExpand" />
+                    </StackLayout>
+                </Frame>
+
+                <Frame BackgroundColor="#311b45" CornerRadius="90">
+                    <StackLayout Spacing="10" Padding="20">
+                        <Image Source="corona.jpg" HeightRequest="300" Aspect="AspectFill" />
+
+                        <Label Text="Cerveza Corona" FontSize="20" FontAttributes="Bold" />
+                        <Label Text="Disfruta de tus momentos de descanso con una bien fria" FontSize="16" TextColor="#555555" />
+
+                        <Label Text="Precio: $9.99" FontSize="18" TextColor="#3498db" />
+
+                        <Button Text="Agregar al Carrito" BackgroundColor="#3498db" TextColor="White" CornerRadius="10" Padding="15" HorizontalOptions="FillAndExpand" />
+                    </StackLayout>
+                </Frame>
+            </StackLayout>
+            
+            
+        </ScrollView>
+    </ContentPage.Content>
+
+
+
+</ContentPage>
